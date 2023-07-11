@@ -1,0 +1,969 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 3vmax;
+  padding: 1vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #646464;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../public/fonts/GothamMedium.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'ArnoldLetter';
+  src: url('../public/fonts/Arnold Letter-Demo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('../public/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ComicNeue';
+  src: url('../public/fonts/ComicNeue-Regular.ttf') format('truetype');
+}
+
+
+
+.navContainer{
+  background-color: #68984c;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinkContainer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  align-content: center;
+  align-self: center;
+}
+
+
+
+.navbarLeftSide{
+  margin-right:auto;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+.buycontainer {
+  background-color: #68984c;
+  min-height: 100vh;
+  display: flex;
+  margin: auto;
+  
+}
+
+.gigaChadBuyPageTitle{
+  font-family: ArnoldLetter;
+  font-weight: 300;
+  font-size: 5vw;
+  text-align: left;
+  padding-left: 1vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.buyPageDesc{
+  color: white;
+  text-align: left;
+  font-family: Comfortaa;
+  width: 80%;
+  font-size: 1.5vw;
+  padding-left: 1vw;
+}
+
+.buymidcontainer{
+  margin:auto;
+  width:80%;
+  margin-top: 5vh;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+.buymidcontainerUpper{
+  margin:auto;
+  width:100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+
+.buydescTitleSocialsDescBox{
+   color: white;
+   width:40%;
+  
+   
+   display: block;
+   float: left;
+   
+   
+}
+
+
+
+.buy-logo {
+  height: 100%;
+  width: 80%;
+  pointer-events: none;
+
+
+}
+
+.buyContainerInner{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.buylogocontainer{
+  display: block;
+  width: 30%;
+
+  float: right;
+  
+}
+
+.socialLogos{
+  height: 4vw;
+  width: 4vw;
+  
+  display: inline-flex;
+  margin:auto;
+  padding: .5vw;
+}
+
+.buttonLogos{
+  height: 2vw;
+  width: 2w;
+  
+  padding-left: 1vw;
+  margin:auto;
+}
+
+.socialLogosCMM{
+  height: 4vw;
+  width: 4vw;
+  border-radius: 200px;
+  display: inline-flex;
+  margin:auto;
+  padding: .5vw;
+  
+}
+
+.socialLogos:hover{
+  scale: 110%;
+}
+
+.socialLogosCMM:hover{
+  scale: 110%;
+}
+
+.buyBoxUnderneath{
+  display:block;
+
+  height: 20vh;
+}
+
+
+.uniButtonContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+}
+
+
+.uniswapBuyButton{
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 40px;
+  font-size: 2.5vw;
+  font-weight: 900;
+  margin:auto;
+  font-family: ArnoldLetter;
+  display: flex;
+  padding: .5vw 3vw .5vw 3vw;
+  color: white;
+  box-shadow: 0 0px 10px .1px rgba(255, 255, 255, 0.144); 
+
+}
+
+.uniswapBuyButton:hover{
+  scale: 110%;
+  box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.356); 
+}
+
+
+.aboutPageContainer{
+  background-color: #68984c;
+  height: 100vh;
+}
+
+.aboutMidContainer{
+  
+  height: 60vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.aboutTitleContainer{
+ 
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 10vh;
+}
+
+.aboutTitle{
+  color: white;
+  font-size: 10vh;
+  font-family: ArnoldLetter;
+  margin: auto;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+
+.aboutLogo{
+  width: 25vw;
+ 
+  margin: auto;
+}
+
+.aboutDesc{
+  color: white;
+  font-size: 2.5vh;
+  margin: auto;
+  text-align: left;
+  width: 25vw;
+  font-family: Comfortaa;
+}
+
+.mintContainer{
+  background-color: #68984c;
+  height: 100vh;
+}
+
+.mintMidRightContainer{
+  
+  height: 60vh;
+  width: 30vw;
+  margin: auto;
+
+}
+
+.mintMidLeftContainer{
+  
+  width: 30vw;
+  margin: auto;
+
+}
+
+.mintInnerContainer{
+  display:flex;
+  height: 80vh;
+  width: 70vw;
+  margin: auto;
+}
+
+.mintPageLogo{
+  width: 30vw;
+}
+
+.howToMintTitle{
+  color: white;
+  font-family: ArnoldLetter;
+  font-size: 4vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.mintDesc{
+  color: white;
+  font-family: Comfortaa;
+  font-size: 2.5vh;
+  margin: auto;
+  text-align: left;
+  
+}
+
+.mintPageButton{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 40px;
+  font-size: 2vw;
+  font-weight: 900;
+  margin:auto;
+  font-family: Comfortaa;
+  display: flex;
+  padding: .5vw 3vw .5vw 3vw;
+  color: white;
+  box-shadow: 0 0px 10px .1px rgba(255, 255, 255, 0.144); 
+  text-decoration: none;
+
+}
+
+.mintPageButton:hover{
+  scale: 110%;
+  box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.356); 
+}
+
+.mintButtonContainer{
+  margin:auto;
+  width: 15vw;
+}
+
+.spaceDiv{
+  height: 5vh;
+}
+
+.roadMapContainer{
+  background-color: #68984c;
+  height: 100vh;
+}
+
+.roadmapInnerContainer{
+ 
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+  flex-direction: column;
+}
+
+.midUpperContainer{
+
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.upperMidLeft{
+ 
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.upperMidMid{
+ 
+  width: 30vw;
+  display: flex;
+  
+  flex-direction: column;
+}
+
+.upperMidRight{
+  
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.midMidContainer{
+  height: 10vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.midLowerContainer{
+  height: 45vh;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.roadmapUpperLeftLogo{
+  width: 11vw;
+  border-radius: 4vw;
+}
+
+.roadmapUpperRightLogo{
+  width: 11vw;
+  border-radius: 1vw;
+}
+
+.roadmapTitle{
+  color: white;
+  font-family: ArnoldLetter;
+  font-size: 7vw;
+  padding: 0px;
+  line-height: 4vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+}
+
+.roadmapUnderTitle{
+  width: 100%;
+  height: 20vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roadmapTitleContainer{
+  
+  height: 13vh;
+  display: inline;
+  padding: 0px;
+}
+
+
+.roadmapUnderTitleBox{
+  
+  width: 20vw;
+  height: 17vh;
+  border-radius: 0px 30px 0px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.356); 
+  background-color: #496d34;
+  border: 2px solid white;
+}
+
+.roadmapUpperText{
+  color: white;
+  font-family: Comfortaa;
+  font-size: 1.1vw;
+  padding: .4vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  
+}
+
+
+.roadmapMidText{
+  color: white;
+  font-family: Comfortaa;
+  font-size: 1.1vw;
+  padding: .4vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+  width: 50vw;
+ 
+}
+
+.roadmapLowerLeft{
+  
+  height: 43vh;
+  width: 22vw;
+  margin: auto;
+  border-radius: 0px 30px 0px 30px;
+  border: 2px solid white;
+  box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.356); 
+  background-color: #496d34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vw;
+}
+
+.roadmapLowerMid{
+ 
+  height: 43vh;
+  width: 22vw;
+  margin: auto;
+  border-radius: 0px 30px 0px 30px;
+  border: 2px solid white;
+  box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.356); 
+  background-color: #496d34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vw;
+}
+
+.roadmapLowerRight {
+ 
+  height: 43vh;
+  width: 22vw;
+  margin: auto;
+  border-radius: 0px 30px 0px 30px;
+  border: 2px solid white;
+  box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.356); 
+  background-color: #496d34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vw;
+}
+
+
+.roadmapLowerText{
+  color: white;
+  font-family: Comfortaa;
+  font-size: 1.1vw;
+  padding: .4vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+  width: 50vw;
+ 
+}
+
+.roadmapLowerTitle{
+  color: white;
+  font-family: Comfortaa;
+  font-size: 2vw;
+  padding: .4vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+}
+
+.roadmapLowerBoxText{
+  color: white;
+  font-family: Comfortaa;
+  font-size: 1.1vw;
+  padding: .4vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  
+     width: 15vw;
+    text-align: left;
+}
+
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #000000;/* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  
+}
+
+.socialLinksContainer{
+  margin-top: 5vh;
+}
+
+.uniswapNavButton{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 40px;
+  font-size: 1vw;
+  font-weight: 900;
+  font-family: Comfortaa;
+  padding: .5vw 2vw .5vw 2vw;
+  color: white;
+  box-shadow: 0 0px 10px .1px rgba(255, 255, 255, 0.144); 
+  text-decoration: none;
+}
+
+.navLinks{
+  padding-inline: 2vw;
+  text-decoration: none;
+  font-size: 1vw;
+  color: white;
+  font-family: Comfortaa;
+  
+}
+
+.navBuyButtonContainer{
+  margin:auto;
+  
+  margin-right: 20vw;
+}
+
+
+.mobileNav{
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+
+  .buycontainer{
+    position: absolute;
+  }
+
+  .buyContainerInner{
+    width: 100%;
+    
+  }
+
+  .buymidcontainer{
+    width: 100%;
+  }
+
+
+  .buymidcontainerUpper{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+ .gigaChadBuyPageTitle{
+  font-size: 18vw;
+  text-align: center;
+ }
+    
+  .buydescTitleSocialsDescBox{
+    width: 100%;
+    
+  }
+
+  .buyPageDesc{
+    font-size: 6vw;
+    text-align: center;
+    margin: auto;
+  }
+
+  .buylogocontainer{
+    display: none;
+    
+  }
+
+  .socialLogos{
+    height: 90px;
+    width: 90px;
+    
+  }
+
+  .socialLogosCMM{
+    height: 90px;
+    width: 90px;
+  }
+
+  .uniswapBuyButton{
+    width: 40vw;
+    border: 2px solid white;
+    height: 8vh;
+    font-size: 12vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .uniButtonContainer{
+    width: 100%;
+    
+  }
+
+  .buttonLogos{
+    height: 8vw;
+    width: 8vw;
+  
+    padding-left: 1vw;
+    margin:auto;
+  }
+
+  .navContainer{
+    display: none;
+  }
+
+  .navBuyButtonContainer{
+    display: none;
+  }
+
+  .App-logo{
+    height: 8vmax;
+    margin-left: 3vw;
+  }
+
+  .mobileNav{
+    display: flex;
+    background-color: #68984c;
+ 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .burgerMenu{
+    height: 5vmax;
+    width: 15vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 3vw;
+  }
+
+
+
+  .burger-bar{
+    width: 3em;
+    height: 0.5em;
+    background-color: #00000056;
+    border-radius: 0.5em;
+  }
+
+  .menu{
+    background-color: #68984c;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .hamLinkContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+  }
+
+  .hamLinks{
+    padding-inline: 2vw;
+    text-decoration: none;
+    font-size: 7vw;
+    color: white;
+    font-family: Comfortaa;
+    font-weight: 900;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .visible{
+    display: inherit;
+  }
+
+
+
+
+  .roadMapContainer{
+    height: 225vh;
+  }
+ 
+
+  
+
+  .midUpperContainer{
+    
+    height: auto;
+    display: block;
+  }
+
+  .upperMidLeft{
+    
+    margin: auto;
+    height: 15vw;
+  }
+
+  .upperMidRight{
+    
+    margin: auto;
+    height: 15vw;
+  }
+  
+  .roadmapUpperRightLogo{
+    width: 15vw;
+  }
+
+  .roadmapUpperLeftLogo{
+    width: 15vw;
+  }
+
+  
+
+  .roadmapTitleContainer{
+    
+    display: none;
+  }
+
+  .roadmapTitle{
+    
+    display: none;
+  }
+
+  .roadmapUnderTitle{
+    
+    width: 80vw;
+    height: 25vh;
+  }
+
+  .roadmapUnderTitleBox{
+    width: 70vw;
+    height: 20vh;
+  }
+
+  .roadmapUpperText{
+    font-size: 5vw;
+    padding-bottom: .5vh;
+    
+  }
+
+  .midMidContainer{
+   
+    height: 20vh;
+    padding-bottom: 3vh;
+  }
+  
+  .roadmapMidText{
+    font-size: 5vw;
+    width: 100%;
+    
+  }
+
+  .midLowerContainer{
+    width: 100%;
+    display: block;
+  }
+
+  .roadmapLowerLeft{
+    
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .roadmapLowerMid{
+    
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .roadmapLowerRight{
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .roadmapLowerTitle{
+    font-size: 6vw;
+    padding-top: .5vh;
+  }
+
+  .roadmapLowerBoxText{
+    font-size: 4vw;
+    width: 100%;
+  }
+
+  .roadmapLowerBoxText{
+    padding-bottom: .5vh;
+  }
+  
+
+  
+}
