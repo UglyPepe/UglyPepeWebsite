@@ -23,7 +23,7 @@ const Buy = () => {
 
             <div className="socialLinksContainer">
             <a href="https://twitter.com/PepeCoin_OG"><img src={'../imgs/twitterlogo.png'} className="socialLogos" /></a>
-            <a href="https://t.me/+iofGyLYyN_pmYmM5"><img src={'../imgs/telegram-seeklogo.com.svg'} className="socialLogos" /></a>
+            <a href="https://t.me/UglyPepeCoin"><img src={'../imgs/telegram-seeklogo.com.svg'} className="socialLogos" /></a>
             <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xb5377fd427376e4a795e0dccb97e4370d67e9774"><img src={'../imgs/dextools-seeklogo.com.svg'} className="socialLogos" /></a>
             <a href="https://etherscan.io/address/0x86031d4925b68ae435a627eb52dc7c5507b3a6e1"><img src={'../imgs/etherscan-logo-circle.svg'} className="socialLogos" /></a>
             <a href=""><img src={'../imgs/cmmLogo.png'} className="socialLogosCMM" /></a>

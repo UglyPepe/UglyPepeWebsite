@@ -62,7 +62,7 @@
 
 
 .navContainer{
-  background-color: #68984c;
+  background-color: #6b974c;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -93,7 +93,7 @@
 
 
 .buycontainer {
-  background-color: #68984c;
+  background-color: #6b974c;
   min-height: 100vh;
   display: flex;
   margin: auto;
@@ -159,8 +159,7 @@
 
 
 .buy-logo {
-  height: 100%;
-  width: 80%;
+  width: 100%;
   pointer-events: none;
 
 
@@ -260,18 +259,19 @@
 
 
 .aboutPageContainer{
-  background-color: #68984c;
+  background-color: #6b974c;
   height: 100vh;
 }
 
 .aboutMidContainer{
   
-  height: 60vh;
+  height: 40vh;
   width: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  
 }
 
 .aboutTitleContainer{
@@ -281,7 +281,9 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+  padding-top: 10vh;
   height: 10vh;
+  
 }
 
 .aboutTitle{
@@ -313,7 +315,7 @@
 }
 
 .mintContainer{
-  background-color: #68984c;
+  background-color: #6b974c;
   height: 100vh;
 }
 
@@ -394,7 +396,7 @@
 }
 
 .roadMapContainer{
-  background-color: #68984c;
+  background-color: #6b974c;
   height: 100vh;
 }
 
@@ -779,7 +781,7 @@ ul li::before {
 
   .mobileNav{
     display: flex;
-    background-color: #68984c;
+    background-color: #6b974c;
  
     text-align: center;
     justify-content: center;
@@ -807,7 +809,7 @@ ul li::before {
   }
 
   .menu{
-    background-color: #68984c;
+    background-color: #6b974c;
     width: 100vw;
     height: 100vh;
     position: absolute;
