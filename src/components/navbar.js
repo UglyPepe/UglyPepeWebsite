@@ -39,7 +39,7 @@ function Navbar() {
             </div>
 
             <div className="navBuyButtonContainer">
-            <a className="uniswapNavButton" href="">buy now</a>
+            <a className="uniswapNavButton" href="https://app.uniswap.org/#/tokens/ethereum/0xba25bfbfc596c88576dfe0d4d95a87b34a291f45">buy now</a>
             </div>
 
             </nav>
